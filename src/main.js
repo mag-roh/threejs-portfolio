@@ -94,6 +94,7 @@ scene.add(moon);
 moon.position.z = 30;
 moon.position.setX(-10);
 
+// To change the position of the objects as the page is scrolled
 const moveCamera = () => {
 
   const t = document.body.getBoundingClientRect().top; // get the dimensions of the viewport and get the actual position from the top of the webpage
